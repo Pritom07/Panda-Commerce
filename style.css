@@ -262,3 +262,152 @@ footer {
     color: white;
     background-color: green;
 }
+
+@media only screen and (max-width:688px) {
+
+    /*------------------ navbar section style------------------------ */
+
+    .Navber-search {
+        margin-right: 50%;
+        margin-top: 4%;
+    }
+
+    .Navbar-options {
+        margin-top: 1%;
+        margin-left: 25%;
+    }
+
+    /* --------------------carousel section style---------------------- */
+
+    .carousel-sliders {
+        height: 770px;
+    }
+
+    .carousel-caption h2 {
+        font-size: 29px;
+        position: relative;
+        right: 10%;
+        top: 2%;
+    }
+
+    .carousel-caption p {
+        font-size: 15px;
+        position: relative;
+        right: 15%;
+        padding-right: 7.8%;
+    }
+
+    .carousel-caption h3 {
+        margin-left: 15%;
+        font-weight: 600;
+    }
+
+    .carousel-caption button {
+        margin-left: 9%;
+    }
+
+    .tv img {
+        height: 350px;
+        position: relative;
+        right: 30%;
+        top: 6%;
+    }
+
+    .wireless-headphones h2 {
+        font-size: 29px;
+        text-align: center;
+        position: relative;
+        right: 21%;
+    }
+
+    .wireless-headphones p {
+        font-size: 15px;
+        position: relative;
+        right: 16.5%;
+        padding-right: 8%;
+    }
+
+    .wireless-headphones h3 {
+        font-weight: 600;
+    }
+
+    .wireless-headphones button {
+        margin-left: 9%;
+    }
+
+    .headphone img {
+        height: 310px;
+        margin-top: 11%;
+        margin-left: 10%;
+    }
+
+    .xbox img {
+        height: 360px;
+        position: relative;
+        right: 23%;
+    }
+
+    /*-------------- category section style-------------------- */
+
+    .category {
+        font-size: 28px;
+    }
+
+    .all-categories {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .watch {
+        width: 80%;
+        margin-left: 5%;
+        margin-bottom: 3%;
+    }
+
+    /* ------------------shoes and backpack section style-------------------- */
+
+    .backpack {
+        width: 80%;
+        margin-bottom: 3%;
+    }
+
+    .shoe {
+        width: 80%;
+    }
+
+    .shoe-row>.col-sm-11>.card {
+        margin-top: 11%;
+    }
+
+
+    .reebok {
+        margin-top: 6%;
+    }
+
+    .bag-section {
+        margin-top: 24%;
+    }
+
+    .single-bag {
+        margin-top: 6%;
+    }
+
+    /*----------- footer section style-------------------- */
+
+    .footer-caption h3 {
+        font-size: 25px;
+    }
+
+    .footer-caption p {
+        font-size: 14px;
+    }
+
+    .input-email {
+        width: 90%;
+    }
+
+    .footer-caption small {
+        margin-top: 25%;
+    }
+
+}
