@@ -1,0 +1,264 @@
+/*--------------------------- importing google font poppins -------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*------------------ common stylies or utilities--------------------- */
+
+body,
+html {
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    max-width: 1360px;
+    margin: 0px auto;
+}
+
+/* --------------navbar section style -----------------*/
+
+.panda {
+    margin-left: 3%;
+}
+
+.Navber-search {
+    padding-left: 4%;
+}
+
+.Navber-search input {
+    width: 310px;
+}
+
+.Navber-search>button {
+    color: black;
+    background-color: #ff69b4;
+}
+
+.Navber-search>button:hover {
+    color: white;
+    background-color: green;
+}
+
+.Navbar-options {
+    margin-left: 5%;
+    white-space: nowrap;
+}
+
+.Navbar-options li {
+    margin-left: 1%;
+}
+
+
+/* ----------------carousel section style --------------*/
+
+.carousel-sliders {
+    background-color: #FADCD9;
+    height: 380px;
+    margin-top: 5.2%;
+}
+
+.carousel-caption {
+    position: relative;
+    top: 10%;
+    left: 21%;
+    text-align: left;
+}
+
+.taka {
+    color: #ff007f;
+}
+
+.carousel-caption>button {
+    background-color: #ff007f;
+    border: 1px solid #ff007f;
+    height: 40px;
+    padding: 8px;
+}
+
+.carousel-caption>h2 {
+    font-size: 38px;
+    font-weight: 650;
+}
+
+.carousel-caption>p {
+    margin-top: 3%;
+}
+
+.tv>img {
+    height: 360px;
+    margin-top: 3%;
+    margin-left: 35%;
+}
+
+.changer {
+    background-color: grey;
+}
+
+.headphone>img {
+    height: 337px;
+    margin-top: 3%;
+    margin-left: 35%;
+}
+
+.xbox>img {
+    height: 400px;
+    margin-left: 28%;
+}
+
+/* ----------------categories section style----------------- */
+
+.category {
+    font-weight: 600;
+}
+
+.watch>h4,
+.backpack>h4,
+.shoe>h4 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.watch>img {
+    height: 130px;
+    margin-left: 22%;
+}
+
+.backpack>img {
+    height: 130px;
+    margin-left: 8%;
+}
+
+.shoe>img {
+    margin-left: 20%;
+}
+
+.watch {
+    background-color: #ffbf00;
+    padding: 2%;
+    width: 28%;
+    margin-left: 1%;
+    height: 150px;
+    color: white;
+}
+
+.backpack {
+    background-color: #ff007f;
+    padding: 2%;
+    width: 28%;
+    margin-left: 5%;
+    height: 150px;
+    color: white;
+}
+
+.shoe {
+    background-color: #0476D0;
+    padding: 2%;
+    width: 28%;
+    margin-left: 5%;
+    height: 150px;
+    color: white;
+}
+
+/* ----------shoe-section style------------------- */
+
+.shoe-section {
+    position: relative;
+    top: 40px;
+}
+
+.shoe-section>h3 {
+    font-weight: 600;
+}
+
+.shoe-section>p {
+    color: blue;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.shoe-row {
+    margin-top: 5%;
+}
+
+.card-caption>h4 {
+    font-weight: 600;
+}
+
+.card-caption>p {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.card-caption>h5 {
+    font-weight: 600;
+}
+
+/* --------------------Backpack section style---------------------- */
+
+.bag-section>h3 {
+    font-weight: 600;
+}
+
+.bag-section>p {
+    color: blue;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.bag-row {
+    margin-top: 3%;
+}
+
+.card-caption-bag>h4 {
+    font-weight: 600;
+}
+
+.card-caption-bag>p {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.card-caption-bag>h5 {
+    font-weight: 600;
+}
+
+/* ---------------footer section style ----------------------*/
+
+footer {
+    background-color: #FADCD9;
+    height: 320px;
+}
+
+.footer-caption {
+    position: relative;
+    top: 19%;
+}
+
+.footer-caption h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.footer-caption p {
+    font-weight: 460;
+}
+
+.footer-caption small {
+    margin-top: 6.1%;
+}
+
+.input-email {
+    width: 50%;
+    height: 47px;
+}
+
+.input-email>button {
+    color: white;
+    background-color: #ff007f;
+}
+
+.input-email>button:hover {
+    color: white;
+    background-color: green;
+}
