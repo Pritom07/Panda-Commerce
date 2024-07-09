@@ -49,7 +49,6 @@ html {
     margin-left: 1%;
 }
 
-
 /* ----------------carousel section style --------------*/
 
 .carousel-sliders {
@@ -263,7 +262,9 @@ footer {
     background-color: green;
 }
 
-@media only screen and (max-width:688px) {
+/*------------------- media quries section style-------------------------- */
+
+@media only screen and (max-width:539px) {
 
     /*------------------ navbar section style------------------------ */
 
@@ -424,6 +425,151 @@ footer {
 
 }
 
+@media only screen and (min-width:540px) and (max-width:688px) {
+
+    /* ---------------navbar section style ------------------------*/
+
+    .Navber-search {
+        margin-top: 2%;
+    }
+
+    .Navbar-options {
+        margin-left: 30%;
+        margin-top: 1%;
+    }
+
+    /* -----------------------carousel section style ------------------------*/
+
+    .carousel-sliders {
+        height: 750px;
+    }
+
+    .carousel-caption h2 {
+        position: relative;
+        right: 8%;
+    }
+
+    .carousel-caption p {
+        position: relative;
+        right: 17%;
+        padding-right: 9%;
+        text-align: justify;
+    }
+
+    .carousel-caption h3 {
+        margin-left: 20%;
+    }
+
+    .carousel-caption button {
+        margin-left: 16%;
+    }
+
+    .tv img {
+        margin-top: 5%;
+        position: relative;
+        right: 15%;
+    }
+
+    .wireless-headphones h2 {
+        font-size: 34px;
+        position: relative;
+        right: 18%;
+        white-space: nowrap;
+    }
+
+    .headphone>img {
+        height: 260px;
+        margin-top: 10%;
+        position: relative;
+        right: 10%;
+    }
+
+    .x-box-pos h2 {
+        position: relative;
+        left: 4%;
+    }
+
+    .xbox>img {
+        height: 60%;
+        position: relative;
+        right: 15%;
+    }
+
+    /*-------------- category section style ---------------------*/
+
+    .category {
+        font-size: 30px;
+    }
+
+    .all-categories {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+    }
+
+    .watch {
+        width: 170%;
+    }
+
+    .watch>img {
+        position: relative;
+        right: 6%;
+    }
+
+    .backpack {
+        width: 94%;
+        margin-left: 8%;
+
+    }
+
+    .backpack>img {
+        position: relative;
+        right: 12%;
+    }
+
+    .shoe {
+        width: 170%;
+        margin-top: 7%;
+        position: relative;
+        right: 4%;
+    }
+
+    /*--------------- shoe section style -----------------*/
+
+    .shoe-section>h3 {
+        font-size: 30px;
+    }
+
+    .shoe-section p {
+        font-size: 19px;
+    }
+
+    .shoe-row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /*----------------- bag section style---------------------- */
+
+    .bag-section h3 {
+        font-size: 30px;
+    }
+
+    .bag-section p {
+        font-size: 19px;
+    }
+
+    .bag-row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /*------------------------- footer section style---------------- */
+
+    .footer-caption small {
+        margin-top: 15%;
+    }
+}
+
 @media only screen and (min-width:689px) and (max-width:992px) {
 
     /*------------------ navbar section style ------------------------*/
@@ -564,6 +710,45 @@ footer {
 
     .bag-section p {
         font-size: 25px;
+    }
+
+}
+
+@media only screen and (min-width:993px) and (max-width:1024px) {
+
+    .Navber-search {
+        position: relative;
+        right: 4%;
+        width: 1%;
+    }
+
+    .Navbar-options {
+        position: relative;
+        left: 196%;
+        margin: 0 -160%;
+
+    }
+
+    .contact {
+        display: none;
+    }
+
+    /*--------------- carousel section style---------------------- */
+
+    .wireless-headphones button {
+        position: relative;
+        left: 20%;
+        bottom: 45px;
+    }
+
+    /*-------------------- category section style------------------ */
+
+    .watch {
+        width: 30%;
+    }
+
+    .backpack {
+        width: 31%;
     }
 
 }
