@@ -273,6 +273,7 @@ footer {
         margin-top: 4%;
         position: relative;
         right: 6%;
+        padding-right: 10%;
     }
 
     .Navbar-options {
@@ -426,6 +427,8 @@ footer {
 
     .Navber-search {
         margin-top: 2%;
+        position: relative;
+        right: 3%;
     }
 
     .Navbar-options {
