@@ -585,6 +585,7 @@ footer {
         margin-top: 3%;
         height: 56px;
         margin-left: 7%;
+        padding-right: 5%;
     }
 
     .navbar-collapse {
@@ -592,7 +593,7 @@ footer {
     }
 
     .Navber-search input {
-        width: 75%;
+        width: 60%;
     }
 
     .Navbar-options {
