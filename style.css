@@ -268,13 +268,6 @@ footer {
 
     /*------------------ navbar section style------------------------ */
 
-    .navbar-collapse {
-        background-color: lightyellow;
-        position: relative;
-        right: 3%;
-        top: 5%;
-    }
-
     .Navber-search {
         margin-right: 25%;
         margin-top: 4%;
@@ -318,7 +311,7 @@ footer {
     .tv img {
         height: 350px;
         position: relative;
-        right: 30%;
+        right: 23%;
         top: 6%;
     }
 
